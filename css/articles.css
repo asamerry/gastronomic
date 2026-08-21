@@ -12,7 +12,7 @@ body {
 
 .page-content {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 7fr 16fr;
     gap: 2rem;
     padding: 0rem 2rem 2rem 2rem;
 }
@@ -39,6 +39,13 @@ body {
 
 .gallery-image.active {
     display: block;
+}
+
+.gallery-caption {
+    margin: 0.5rem 0 0;
+    text-align: center;
+    font-size: 0.9rem;
+    font-style: italic;
 }
 
 .gallery-button {

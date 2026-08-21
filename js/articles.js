@@ -1,5 +1,6 @@
 //// Carousel Gallery ////
 const galleryImages = document.querySelectorAll(".gallery-image");
+const galleryCaption = document.querySelector(".gallery-caption");
 const galleryDots = document.querySelectorAll(".gallery-dot");
 
 const previousButton = document.querySelector(".previous");
@@ -19,8 +20,11 @@ function showImage(index) {
 
     galleryImages[index].classList.add("active");
     galleryDots[index].classList.add("active");
+
+    galleryCaption.textContent = galleryImages[index].dataset.caption;
 }
 
+// Buttons
 nextButton.addEventListener("click", () => {
 
     currentImage =
@@ -40,6 +44,7 @@ previousButton.addEventListener("click", () => {
 
 });
 
+// Visual Dots
 galleryDots.forEach(dot => {
 
     dot.addEventListener("click", () => {
@@ -51,6 +56,8 @@ galleryDots.forEach(dot => {
     });
 
 });
+
+showImage(0);
 
 //// Content Buttons and Tabs ////
 const tabButtons = document.querySelectorAll(".tab-button");
