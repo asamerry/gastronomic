@@ -1,0 +1,208 @@
+/* Note that styles for the header are located separately in css/header.css, which links to index.html. */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f4eaf0;
+}
+
+.page-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    padding: 0rem 2rem 2rem 2rem;
+}
+
+/* Photo Gallery */
+.photo-gallery {
+    width: 100%;
+}
+
+.gallery-container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    overflow: hidden;
+}
+
+.gallery-image {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.gallery-image.active {
+    display: block;
+}
+
+.gallery-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    transition: opacity 0.3s ease;
+    color: #F2F2F2;
+    background-color: #333;
+}
+
+.previous {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.gallery-container:hover .gallery-button {
+    opacity: 1;
+}
+
+.gallery-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+.gallery-dot {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border: 1px solid;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.gallery-dot.active {
+    background: black;
+}
+
+/* Tabs */
+.content-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    height: 0;
+    min-height: 100%;
+    overflow: hidden;
+
+    background-color: white;
+    border: 1px solid #ccc;
+    border-top: none;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.tabs {
+    display: flex;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.tab-content {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+}
+
+.tab-button {
+    font-size: 11pt;
+    flex: 1;
+    padding: 0.7rem;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: #F2F2F2;
+    cursor: pointer;
+}
+
+.tab-button.active {
+    background-color: white;
+    font-weight: bold;
+    border-bottom: none;
+}
+
+.tab-panel {
+    display: none;
+    padding: 1rem 2.5rem;
+}
+
+.tab-panel.active {
+    display: block;
+}
+
+/* See Also Tab */
+.see-also-result {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem;
+    background-color: white;
+    color: black;
+    font-size: 13pt;
+    border: 1px solid #ccc;
+    text-decoration: none;
+}
+
+.see-also-result + .see-also-result {
+    border-top: none;
+}
+
+.see-also-result:hover {
+    background-color: #eee;
+}
+
+.see-also-result-image {
+    width: 10%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.see-also-result-title {
+    flex: 1;
+}
+
+/* References Tab */
+#references li {
+    margin-bottom: 0.5rem;
+}
+
+#references a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Smaller screens */
+@media (max-width: 800px) {
+
+    .site-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .header-right {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .page-content {
+        grid-template-columns: 1fr;
+    }
+
+    .content-box {
+        height: auto;
+        min-height: 0;
+        aspect-ratio: 3 / 4;
+    }
+}
