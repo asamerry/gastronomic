@@ -103,9 +103,22 @@ loadArticles();
 
 const searchInput = document.querySelector(".search-input");
 const searchResults = document.querySelector(".search-results");
+const searchForm = document.querySelector(".search-form");
 
 searchInput.addEventListener("input", () => {
     const results = searchArticles(searchInput.value);
 
     displaySearchResults(results);
+});
+
+// Enter key submits search form and redirects to first search result
+searchForm.addEventListener("submit", event => {
+    event.preventDefault();
+
+    const results = searchArticles(searchInput.value);
+
+    if (results.length > 0) {
+        const siteRoot = document.body.dataset.root;
+        window.location.href = siteRoot + "articles/" + results[0].id + ".html";
+    }
 });
