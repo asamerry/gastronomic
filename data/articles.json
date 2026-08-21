@@ -22,5 +22,14 @@
             "natural coloring",
             "artificial coloring"
         ]
+    },
+
+    {
+        "title": "Figs",
+        "id": "figs",
+        "tags": [
+            "figs",
+            "fruit"
+        ]
     }
 ]
