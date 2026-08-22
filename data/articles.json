@@ -1,7 +1,6 @@
-[
-    {
+{
+    "char-siu": {
         "title": "Char Siu",
-        "id": "char-siu",
         "tags": [
             "char siu",
             "cantonese",
@@ -11,9 +10,8 @@
         ]
     },
 
-    {
+    "food-coloring": {
         "title": "Food Coloring",
-        "id": "food-coloring",
         "tags": [
             "food coloring",
             "food dye",
@@ -24,12 +22,11 @@
         ]
     },
 
-    {
+    "figs": {
         "title": "Figs",
-        "id": "figs",
         "tags": [
             "figs",
             "fruit"
         ]
     }
-]
+}
