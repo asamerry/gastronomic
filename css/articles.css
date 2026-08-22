@@ -1,15 +1,3 @@
-/* Note that styles for the header are located separately in css/header.css, which links to index.html. */
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-family: sans-serif;
-    background-color: #f4eaf0;
-}
-
 .page-content {
     display: grid;
     grid-template-columns: 7fr 16fr;

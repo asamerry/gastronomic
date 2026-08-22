@@ -1,8 +1,3 @@
-body {
-    margin: 0;
-    background-color: #f4eaf0;
-}
-
 .explore-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
