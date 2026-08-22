@@ -1,4 +1,4 @@
-let articles = [];
+let articles = {};
 
 async function loadArticles() {
     const siteRoot = document.body.dataset.root;
@@ -52,11 +52,16 @@ function searchArticles(query) {
     }
 
     // Get all positive search results
-    const results = articles.filter(article =>
+    const results = Object.entries(articles)
+    .filter(([id, article]) =>
         article.tags.some(tag =>
             tag.toLowerCase().includes(normalizedQuery)
         )
-    );
+    )
+    .map(([id, article]) => ({
+        id,
+        ...article
+    }));
 
     // Sort positive search results
     results.sort((a, b) => {
