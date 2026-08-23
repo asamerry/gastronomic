@@ -1,46 +1,43 @@
 //// Carousel Gallery ////
-const galleryImages = document.querySelectorAll(".gallery-image");
-const galleryCaption = document.querySelector(".gallery-caption");
+const galleryItems = document.querySelectorAll(".gallery-item");
 const galleryDots = document.querySelectorAll(".gallery-dot");
 
 const previousButton = document.querySelector(".previous");
 const nextButton = document.querySelector(".next");
 
-let currentImage = 0;
+let currentItem = 0;
 
 function showImage(index) {
-
-    galleryImages.forEach(image => {
-        image.classList.remove("active");
+    galleryItems.forEach(item => {
+        item.classList.remove("active");
     });
 
     galleryDots.forEach(dot => {
         dot.classList.remove("active");
-    });
+    })
 
-    galleryImages[index].classList.add("active");
+    galleryItems[index].classList.add("active");
     galleryDots[index].classList.add("active");
-
-    galleryCaption.textContent = galleryImages[index].dataset.caption;
+    
 }
 
 // Buttons
 nextButton.addEventListener("click", () => {
 
-    currentImage =
-        (currentImage + 1) % galleryImages.length;
+    currentItem =
+        (currentItem + 1) % galleryItems.length;
 
-    showImage(currentImage);
+    showImage(currentItem);
 
 });
 
 previousButton.addEventListener("click", () => {
 
-    currentImage =
-        (currentImage - 1 + galleryImages.length)
-        % galleryImages.length;
+    currentItem =
+        (currentItem - 1 + galleryItems.length)
+        % galleryItems.length;
 
-    showImage(currentImage);
+    showImage(currentItem);
 
 });
 
@@ -49,9 +46,9 @@ galleryDots.forEach(dot => {
 
     dot.addEventListener("click", () => {
 
-        currentImage = Number(dot.dataset.image);
+        currentItem = Number(dot.dataset.image);
 
-        showImage(currentImage);
+        showImage(currentItem);
 
     });
 

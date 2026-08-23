@@ -13,20 +13,21 @@
 .gallery-container {
     position: relative;
     width: 100%;
-    aspect-ratio: 3 / 4;
     overflow: hidden;
 }
 
-.gallery-image {
+.gallery-item {
     display: none;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
 }
 
-.gallery-image.active {
+.gallery-item.active {
     display: block;
+}
+
+.gallery-image {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
 }
 
 .gallery-caption {
