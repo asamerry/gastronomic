@@ -4,9 +4,14 @@
         "tags": [
             "char siu",
             "cantonese",
+            "guangdong",
             "pork shoulder",
             "pork tenderloin",
-            "hoisin"
+            "hoisin",
+            "savory",
+            "red",
+            "roasted",
+            "oven"
         ]
     },
 
@@ -26,7 +31,9 @@
         "title": "Figs",
         "tags": [
             "figs",
-            "fruit"
+            "fruit",
+            "sweet",
+            "purple"
         ]
     }
 }

@@ -2,7 +2,9 @@
     {
         "Italian Cuisine": [],
 
-        "Chinese Food": [],
+        "Chinese Food": [
+            "char-siu"
+        ],
 
         "French Cooking": []
     },
@@ -12,7 +14,11 @@
             "figs"
         ],
 
-        "Spicy Dishes": []
+        "Spicy Dishes": [],
+
+        "Savory Items": [
+            "char-siu"
+        ]
     },
 
     {
