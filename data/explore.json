@@ -6,13 +6,16 @@
             "char-siu"
         ],
 
-        "French Cooking": []
+        "French Cooking": [
+            "tarte-tatin"
+        ]
     },
 
     {
         "Sweet Treats": [
             "figs",
-            "plums"
+            "plums",
+            "tarte-tatin"
         ],
 
         "Spicy Dishes": [],

@@ -45,5 +45,18 @@
             "sweet",
             "purple"
         ]
+    },
+
+    "tarte-tatin": {
+        "title": "Tarte Tatin",
+        "tags": [
+            "tarte-tatin",
+            "french",
+            "fruit dessert",
+            "puff pastry",
+            "apple dessert",
+            "sweet",
+            "caramel"
+        ]
     }
 }
