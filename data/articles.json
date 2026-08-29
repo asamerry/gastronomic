@@ -35,5 +35,15 @@
             "sweet",
             "purple"
         ]
+    },
+
+    "plums": {
+        "title": "Plums",
+        "tags": [
+            "plums",
+            "stone fruit",
+            "sweet",
+            "purple"
+        ]
     }
 }
