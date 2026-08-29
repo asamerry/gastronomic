@@ -176,8 +176,8 @@
 }
 
 .see-also-result-image {
-    width: 16.18%;
-    aspect-ratio: 1.618 / 1;
+    width: 13%;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
     flex-shrink: 0;
 }
