@@ -3,7 +3,8 @@
         "Italian Cuisine": [],
 
         "Chinese Food": [
-            "char-siu"
+            "char-siu",
+            "mapo-tofu"
         ],
 
         "French Cooking": [
@@ -18,7 +19,9 @@
             "tarte-tatin"
         ],
 
-        "Spicy Dishes": [],
+        "Spicy Dishes": [
+            "mapo-tofu"
+        ],
 
         "Savory Items": [
             "char-siu"
