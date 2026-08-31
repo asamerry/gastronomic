@@ -3,6 +3,7 @@
         "title": "Char Siu",
         "tags": [
             "char siu",
+            "chinese",
             "cantonese",
             "guangdong",
             "pork shoulder",
@@ -50,13 +51,27 @@
     "tarte-tatin": {
         "title": "Tarte Tatin",
         "tags": [
-            "tarte-tatin",
+            "tarte tatin",
             "french",
             "fruit dessert",
             "puff pastry",
             "apple dessert",
             "sweet",
             "caramel"
+        ]
+    }, 
+
+    "mapo-tofu": {
+        "title": "Mapo Tofu",
+        "tags": [
+            "mapo tofu",
+            "chinese",
+            "sichuan",
+            "szechuan",
+            "doubanjiang",
+            "toban djan",
+            "spicy",
+            "numbing"
         ]
     }
 }
