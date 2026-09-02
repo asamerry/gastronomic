@@ -3,6 +3,7 @@
         "title": "Char Siu",
         "tags": [
             "char siu",
+            "chinese",
             "cantonese",
             "guangdong",
             "pork shoulder",
@@ -12,18 +13,6 @@
             "red",
             "roasted",
             "oven"
-        ]
-    },
-
-    "food-coloring": {
-        "title": "Food Coloring",
-        "tags": [
-            "food coloring",
-            "food dye",
-            "gel coloring",
-            "liquid coloring",
-            "natural coloring",
-            "artificial coloring"
         ]
     },
 
@@ -50,13 +39,37 @@
     "tarte-tatin": {
         "title": "Tarte Tatin",
         "tags": [
-            "tarte-tatin",
+            "tarte tatin",
             "french",
             "fruit dessert",
             "puff pastry",
             "apple dessert",
             "sweet",
             "caramel"
+        ]
+    }, 
+
+    "mapo-tofu": {
+        "title": "Mapo Tofu",
+        "tags": [
+            "mapo tofu",
+            "chinese",
+            "sichuan",
+            "szechuan",
+            "doubanjiang",
+            "toban djan",
+            "spicy",
+            "numbing"
+        ]
+    },
+
+    "ice-cream": {
+        "title": "Ice Cream",
+        "tags": [
+            "ice cream",
+            "sweet",
+            "frozen dessert",
+            "cold dessert"
         ]
     }
 }
