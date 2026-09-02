@@ -16,18 +16,6 @@
         ]
     },
 
-    "food-coloring": {
-        "title": "Food Coloring",
-        "tags": [
-            "food coloring",
-            "food dye",
-            "gel coloring",
-            "liquid coloring",
-            "natural coloring",
-            "artificial coloring"
-        ]
-    },
-
     "figs": {
         "title": "Figs",
         "tags": [
@@ -72,6 +60,16 @@
             "toban djan",
             "spicy",
             "numbing"
+        ]
+    },
+
+    "ice-cream": {
+        "title": "Ice Cream",
+        "tags": [
+            "ice cream",
+            "sweet",
+            "frozen dessert",
+            "cold dessert"
         ]
     }
 }

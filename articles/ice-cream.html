@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gastronomic</title>
+
+    <link rel="stylesheet" href="../css/articles.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body data-root="../">
+
+    <header class="site-header">
+        <h1 class="page-title">Ice Cream</h1>
+
+        <div class="header-right">
+            <nav class="main-nav">
+                <a href="../index.html">Home</a>
+                <a href="../explore.html">Explore</a>
+                <a href="../about.html">About</a>
+            </nav>
+
+            <div class="search-container">
+
+                <form class="search-form">
+                    <input
+                        class="search-input"
+                        type="search"
+                        placeholder="Search..."
+                    >
+                </form>
+
+                <div class="search-results"></div>
+
+            </div>
+        </div>
+    </header>
+
+    <main class="page-content">
+
+        <section class="photo-gallery">
+            
+            <div class="gallery-container">
+
+                <div class="gallery-item active">
+                    <img 
+                        src="../images/ice-cream/1.jpg" 
+                        alt="Vanilla ice cream" 
+                        class="gallery-image"
+                    >
+
+                    <p class="gallery-caption">
+                        Vanilla ice cream.
+                    </p>
+                </div>
+
+                <div class="gallery-item">
+                    <img 
+                        src="../images/ice-cream/2.jpg" 
+                        alt="6 pints of ice cream" 
+                        class="gallery-image"
+                    >
+
+                    <p class="gallery-caption">
+                        Pints of vanilla, <a href="plums.html">plum</a>, and chocolate banana pecan ice cream.
+                    </p>
+                </div>
+
+                <div class="gallery-item">
+                    <img 
+                        src="../images/ice-cream/3.jpg" 
+                        alt="Banana split" 
+                        class="gallery-image"
+                    >
+
+                    <p class="gallery-caption">
+                        Banana split.
+                    </p>
+                </div>
+
+                <button class="gallery-button previous">
+                    &#10094;
+                </button>
+
+                <button class="gallery-button next">
+                    &#10095;
+                </button>
+            </div>
+
+            <div class="gallery-dots">
+                <button class="gallery-dot active" data-image="0"></button>
+                <button class="gallery-dot" data-image="1"></button>
+                <button class="gallery-dot" data-image="2"></button>
+            </div>
+        </section>
+
+        <section class="content-box">
+
+            <div class="tabs">
+                <button class="tab-button active" data-tab="overview">
+                    Overview
+                </button>
+
+                <button class="tab-button" data-tab="recipe">
+                    Recipe
+                </button>
+
+                <button class="tab-button" data-tab="see-also">
+                    See Also
+                </button>
+
+                <button class="tab-button" data-tab="references">
+                    References
+                </button>
+            </div>
+
+            <div class="tab-content">
+
+                <section class="tab-panel active" id="overview">
+                    <h2>Overview</h2>
+                    <h3>What is ice cream?</h3>
+                        <p>
+                            Ice cream is a frozen dessert made primarily from dairy, sugar, and flavorings. Unlike simply freezing sweetened cream, ice cream is churned as it freezes. Churning incorporates air while continually disturbing the formation of ice crystals, helping produce its characteristic smooth and creamy texture.
+                        </p>
+                        <p>
+                            Recipes vary considerably in their proportions and ingredients. Some rely primarily on milk and cream, while French-style ice creams incorporate egg yolks to produce a rich custard base. Fruits, chocolate, nuts, spices, extracts, and countless other ingredients can then be used to create different flavors and textures. 
+                        </p>
+
+                    <h3>Origin and History</h3>
+                        <p>
+                            The exact origin of ice cream is difficult to trace. People have prepared chilled and frozen foods for centuries, but these early desserts differed considerably from modern ice cream. By the seventeenth century, frozen desserts made with cream began to appear in Europe, where access to ice, sugar, and dairy allowed more elaborate preparations to develop. However, ice cream remained expensive because making it required both costly ingredients and a reliable supply of ice. 
+                        </p>
+                        <p>
+                            Ice cream became increasingly accessible during the nineteenth century as improvements in ice storage, mechanical production, and eventually refrigeration made it easier to produce and distribute. In the United States, commercial ice cream production expanded during this period, helping transform what had once been a dessert for the elite into a widely available food. 
+                        </p>
+
+                    <h3>How Ice Cream Works</h3>
+                        <p>
+                            The texture of ice cream depends on a balance between water, fat, sugar, air, and other ingredients. As the mixture freezes, some of its water forms ice crystals while the remaining ingredients become increasingly concentrated in the unfrozen portion of the mixture. Sugar does not just provide sweetness, it also lowers the freezing point, helping keep the finished ice cream soft enough to scoop.
+                        </p>
+                        <p>
+                            The rate of freezing also affects texture. Faster freezing generally produces smaller ice crystals, while slow freezing allows larger crystals to form. Churning helps control this process while simultaneously incorporating air into the mixture. This is why an ice cream machine generally produces smoother results than simply placing an ice cream base in the freezer. 
+                        </p>
+
+                    <h3>Flavoring Ice Cream</h3>
+                        <p>
+                            Flavor can be introduced at several stages of the ice cream making process. Ingredients such as vanilla beans, coffee, tea, herbs, and cereal can be steeped in the warm dairy, allowing their flavors to infuse the base before freezing. Pur&eacute;es, sauces, and syrups can be incorporated directly into the base, while solid ingredients such as chocolate, nuts, cookies, or candy are generally best added toward the end of the churning. 
+                        </p>
+                        <p>
+                            The stage at which an ingredient is added can affect both its flavor and the final texture of the ice cream. Ingredients with large amounts of water, sugar, or alcohol are particularly important to consider because they can change how the mixture freezes. 
+                        </p>
+
+                    <h3>Ice Cream and Gelato</h3>
+                        <p>
+                            Although the terms are sometimes used interchangeably, Italian-style gelato generally differs from American-style ice cream in its proportions and preparation. Gelato typically contains more milk and less cream, resulting in a lower fat content. It is also churned with less incorporated air, giving it a denser texture than conventional ice cream. Gelato is generally stored and served at a warmer temperature than ice cream, which gives it a softer texture when served. These differences contribute to the characteristic dense texture and intense flavor associated with gelato. 
+                        </p>
+                </section>
+
+                <section class="tab-panel" id="recipe">
+                    <h2>Recipe</h2>
+
+                    <div class="recipe-content">
+                        <div class="recipe-text">
+                            <p>
+                                <b>Note:</b> This recipe requires the use of an ice cream machine with a capacity of at least two quarts. Instructions have also been provided for making ice cream without a machine, but the process is far more time-consuming and the results are generally not as pleasing. 
+                            </p>
+                            <p>
+                                In order to provide the most thorough instructions, I have decided to make chocolate banana pecan ice cream since the different flavoring ingredients demonstrate three useful techniques: steeping ingredients into the base, incorporating pur&eacute;es and syrups, and adding solid mix-ins near the end of churning.  
+                            </p>
+                            
+                            <h3>Ingredients</h3>
+                            <ul>
+                                <li>480 g whole milk</li>
+                                <li>450 g heavy cream, split in half</li>
+                                <li>210 g sugar</li>
+                                <li>3 g salt</li>
+                                <li>6 egg yolks</li>
+                                <li>Flavorings of choice</li>
+                            </ul>
+                            
+                            <h3>Directions</h3>
+                            <ol>
+                                <li>In a large pot, combine the milk, half of the heavy cream, sugar, and salt. Heat gently until the mix starts to steam but does not simmer.</li>
+                                <li>Add any flavoring ingredients that you want to steep. Cover and steep for 45 minutes, keeping the mixture hot but below a simmer.<sup>[1]</sup> I will be using one vanilla bean, split in half and scraped, but other examples include coffee beans, mint, tea, or cereal.</li>
+                                <li>While the base is steeping, prepare an ice bath by adding ice to a large bowl and filling about halfway with cold water. Add the remaining heavy cream to a medium mixing bowl and place in the ice bath.</li>
+                                <li>Place the egg yolks in a bowl and whisk briefly to combine. Slowly whisk one ladleful of the hot base into the yolks. Repeat about three times to temper the eggs so they do not cook when adding them to the base.</li>
+                                <li>Incorporate the tempered egg mixture back into the pot, stirring to combine. Cook gently until the custard reaches about 170&deg;F and coats the back of a spoon.</li>
+                                <li>Pour the custard into the chilled bowl of heavy cream and stir until the mixture has cooled completely, about 10 minutes.</li>
+                                <li>While cooling, incorporate any syrups or pur&eacute;es.<sup>[2]</sup> I will be using a banana pur&eacute;e, but I will also reserve some banana <a href="fruit-syrup.html">cheong</a> (syrup) in case the ice cream needs more flavor. Syrups are easier to adjust during churning than pur&eacute;es.</li>
+                                <li>Turn on the ice cream machine and slowly pour in the chilled base.<sup>[3]</sup> Churn for about 20 minutes, or until the mixture starts to thicken and partially freeze.</li>
+                                <li>Taste the ice cream and adjust the flavor if necessary. This is a good time to add any reserved syrups.<sup>[4]</sup></li>
+                                <li>Add any final mix-ins. For this recipe, I will add chocolate and pecans. Other options include cookies, cookie dough, candy, pretzels, or sprinkles.</li>
+                                <li>Continue to churn for about 20 minutes, or until the ice cream has thickened considerably. It will not be completely frozen but should be very easy to scoop.</li>
+                                <li>Transfer to containers and freeze for at least 4 hours before serving.</li>
+                            </ol>
+
+                            <h3>Notes</h3>
+                            <ol>
+                                <li>If you are not using any ingredients that need to be steeped, simply heat the mixture until steaming and proceed to the next step. No need to steep for 45 minutes.</li>
+                                <li>Chopped fruit can also be added at this stage if desired, but its high water content can create an icy texture once frozen.</li>
+                                <li>If you do not have an ice cream machine, cover the ice bath and ice cream bowl with a kitchen towel and place in the freezer for 30 minutes. After this time, remove the bowls from the freezer and stir for 10 more minutes. Repeat this process a total of four times. After the fourth time, the ice cream should not be completely frozen but should be very easy to scoop. Proceed to the final step, but be sure to read the steps in between as well to see how to add flavors during the freezing process.</li>
+                                <li>Be cautious when adding syrup. Too much additional liquid or sugar can prevent the ice cream from freezing properly.</li>
+                            </ol>
+                        </div>
+
+                        <div class="recipe-gallery">
+                            <img 
+                                src="../images/ice-cream/recipe/1.jpg"
+                                alt="Ingredients"
+                                class="recipe-image"
+                            >
+
+                            <img 
+                                src="../images/ice-cream/recipe/2.jpg"
+                                alt="Milk and cream coming to heat"
+                                class="recipe-image"
+                            >
+
+                            <img 
+                                src="../images/ice-cream/recipe/3.jpg"
+                                alt="Steeping flavors added"
+                                class="recipe-image"
+                            >
+
+                            <img 
+                                src="../images/ice-cream/recipe/4.jpg"
+                                alt="Custard steaming"
+                                class="recipe-image"
+                            >
+
+                            <img 
+                                src="../images/ice-cream/recipe/5.jpg"
+                                alt="Eggs tempering"
+                                class="recipe-image"
+                            >
+
+                            <img 
+                                src="../images/ice-cream/recipe/6.jpg"
+                                alt="Custard with eggs mixed in"
+                                class="recipe-image"
+                            >
+
+                            <img 
+                                src="../images/ice-cream/recipe/7.jpg"
+                                alt="Ice bath with cream"
+                                class="recipe-image"
+                            >
+
+                            <img 
+                                src="../images/ice-cream/recipe/8.jpg"
+                                alt="Ice bath with custard"
+                                class="recipe-image"
+                            >
+
+                            <img 
+                                src="../images/ice-cream/recipe/9.jpg"
+                                alt="Ice cream in machine"
+                                class="recipe-image"
+                            >
+
+                            <img 
+                                src="../images/ice-cream/recipe/10.jpg"
+                                alt="Finished ice cream in machine"
+                                class="recipe-image"
+                            >
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tab-panel" id="see-also">
+                    <h2>See Also</h2>
+
+                    <a class="see-also-result" href="chocolate-chip-cookies.html">
+                        <img class="see-also-result-image" src="../images/chocolate-chip-cookies/1.jpg">
+                        <span class="see-also-result-title">Chocolate Chip Cookies</span>
+                    </a>
+
+                    <a class="see-also-result" href="tarte-tatin.html">
+                        <img class="see-also-result-image" src="../images/tarte-tatin/1.jpg">
+                        <span class="see-also-result-title">Tarte Tatin</span>
+                    </a>
+                </section>
+
+                <section class="tab-panel" id="references">
+                    <h2>References</h2>
+                    <ul>
+                        <li>
+                            Goff, H. Douglas, and Richard W. Hartel. <i>Ice Cream</i>. 7th ed., Springer, 2013.<br>
+                            Used for information about the physical structure of ice cream, including ice-crystal formation, freezing-point depression, fat, sugar, and incorporated air. The book also provides detailed information about ingredients, production, freezing, and the factors that influence texture and stability.
+                        </li>
+
+                        <li>
+                            Quinzio, Jeri. <i>Of Sugar and Snow: A History of Ice Cream Making</i>. University of California Press, 2009.<br>
+                            Used for information about the origins and historical development of ice cream, including its emergence in Europe and later spread through the United States. The book also examines historical ice cream recipes, production methods, and the transition of ice cream from a luxury food to a widely available dessert. 
+                        </li>    
+                        
+                        <li>
+                            Robbett, Mary Kate. “Making Ice Cream Like It's 1927.” <i>National Museum of American History</i>, Smithsonian Institution, 21 Sept. 2016, <a href="https://americanhistory.si.edu/explore/stories/making-ice-cream-its-1927" target="_blank">americanhistory.si.edu/explore/stories/making-ice-cream-its-1927</a>. Accessed 30 Aug. 2026.<br>
+                            Used for information about historical ice cream production and the technological developments that made homemade ice cream increasingly accessible. The article also discusses hand-cranked ice cream freezers, the introduction of household refrigeration, and historical ice cream recipes. 
+                        </li>    
+                        
+                        <li>
+                            “What's in the Ice Cream Aisle?” <i>International Dairy Foods Association</i>, <a href="https://idfa.org/news-views/media-kits/ice-cream/whats-in-the-ice-cream-aisle"  target="_blank">idfa.org/news-views/media-kits/ice-cream/whats-in-the-ice-cream-aisle</a>. Accessed 1 Sept. 2026.<br>
+                            Used for information about the differences between ice cream, gelato, and other frozen desserts. The page also provides definitions and characteristics of frozen custard, sherbet, sorbet, frozen yogurt, and other common frozen desserts. 
+                        </li>
+                    </ul>
+                </section>
+
+            </div>
+        </section>
+
+    </main>
+
+    <script src="../js/articles.js"></script>
+    <script src="../js/search.js"></script>
+
+</body>
+</html>
