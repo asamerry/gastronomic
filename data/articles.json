@@ -71,5 +71,20 @@
             "frozen dessert",
             "cold dessert"
         ]
+    },
+
+    "fruit-syrup": {
+        "title": "Fruit Syrup",
+        "tags": [
+            "fruit syrup",
+            "breakfast",
+            "sweet",
+            "sugar",
+            "preservation",
+            "preserve",
+            "cheong",
+            "pancakes waffles",
+            "topping"
+        ]
     }
 }

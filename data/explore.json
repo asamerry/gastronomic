@@ -17,7 +17,8 @@
             "figs",
             "plums",
             "tarte-tatin",
-            "ice-cream"
+            "ice-cream",
+            "fruit-syrup"
         ],
 
         "Spicy Dishes": [
@@ -30,8 +31,14 @@
     },
 
     {
-        "Breakfast Foods": [],
+        "Breakfast Foods": [
+            "fruit-syrup"
+        ],
 
-        "Finer Details": []
+        "Finer Details": [],
+
+        "Preservation Methods": [
+            "fruit-syrup"
+        ]
     }
 ]
