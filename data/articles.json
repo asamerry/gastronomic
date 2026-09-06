@@ -45,7 +45,8 @@
             "puff pastry",
             "apple dessert",
             "sweet",
-            "caramel"
+            "caramel",
+            "baked"
         ]
     }, 
 
@@ -59,7 +60,8 @@
             "doubanjiang",
             "toban djan",
             "spicy",
-            "numbing"
+            "numbing",
+            "stir fry"
         ]
     },
 
@@ -85,6 +87,20 @@
             "cheong",
             "pancakes waffles",
             "topping"
+        ]
+    },
+
+    "tteokbokki": {
+        "title": "Tteokbokki",
+        "tags": [
+            "gochujang tteokbokki",
+            "rice cakes",
+            "korean",
+            "spicy",
+            "red",
+            "pojangmacha",
+            "pocha",
+            "street food"
         ]
     }
 }
