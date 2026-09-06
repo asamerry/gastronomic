@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gastronomic</title>
+
+    <link rel="stylesheet" href="../css/articles.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body data-root="../">
+
+    <header class="site-header">
+        <h1 class="page-title">Tteokbokki</h1>
+
+        <div class="header-right">
+            <nav class="main-nav">
+                <a href="../index.html">Home</a>
+                <a href="../explore.html">Explore</a>
+                <a href="../about.html">About</a>
+            </nav>
+
+            <div class="search-container">
+
+                <form class="search-form">
+                    <input
+                        class="search-input"
+                        type="search"
+                        placeholder="Search..."
+                    >
+                </form>
+
+                <div class="search-results"></div>
+
+            </div>
+        </div>
+    </header>
+
+    <main class="page-content">
+
+        <section class="photo-gallery">
+            
+            <div class="gallery-container">
+
+                <div class="gallery-item active">
+                    <img 
+                        src="../images/tteokbokki/1.jpg" 
+                        alt="Tteokbokki" 
+                        class="gallery-image"
+                    >
+
+                    <p class="gallery-caption">
+                        Tteokbokki.
+                    </p>
+                </div>
+
+                <div class="gallery-item">
+                    <img 
+                        src="../images/tteokbokki/2.jpg" 
+                        alt="Tteokbokki and green onion" 
+                        class="gallery-image"
+                    >
+
+                    <p class="gallery-caption">
+                        Tteokbokki topped with green onion.
+                    </p>
+                </div>
+
+                <button class="gallery-button previous">
+                    &#10094;
+                </button>
+
+                <button class="gallery-button next">
+                    &#10095;
+                </button>
+            </div>
+
+            <div class="gallery-dots">
+                <button class="gallery-dot active" data-image="0"></button>
+                <button class="gallery-dot" data-image="1"></button>
+            </div>
+        </section>
+
+        <section class="content-box">
+
+            <div class="tabs">
+                <button class="tab-button active" data-tab="overview">
+                    Overview
+                </button>
+
+                <button class="tab-button" data-tab="recipe">
+                    Recipe
+                </button>
+
+                <button class="tab-button" data-tab="see-also">
+                    See Also
+                </button>
+
+                <button class="tab-button" data-tab="references">
+                    References
+                </button>
+            </div>
+
+            <div class="tab-content">
+
+                <section class="tab-panel active" id="overview">
+                    <h2>Overview</h2>
+                    <h3>What is tteokbokki?</h3>
+                        <p>
+                            Tteokbokki (떡볶이, pronounced "tuck-bo-key") is a Korean dish centered around <i>tteok</i>, or rice cakes. The version most commonly associated with the name today consists of cylindrical rice cakes simmered in a thick, bright red sauce made primarily from <i>gochujang</i>, a fermented Korean chili paste. The sauce is spicy and sweet, and common additions include <i>eomuk</i> (Korean fish cakes), green onion, cabbage, and boiled eggs. 
+                        </p>
+                        <p>
+                            Although its name can be translated as "stir-fried rice cakes," modern tteokbokki is usually simmered rather than stir-fried. As the rice cakes cook, starch releases into the liquid to help produce the thick sauce the dish is known for.
+                        </p>
+
+                    <h3>Origin and History</h3>
+                        <p>
+                            Tteokbokki existed long before the modern spicy version. Earlier forms were seasoned primarily with soy sauce and could include ingredients such as beef, mushrooms, and vegetables. This style is now commonly known as <i>gungjung-tteokbokki</i>, or "royal court tteokbokki," because of its association with Korean court cuisine. 
+                        </p>
+                        <p>
+                            The familiar red, gochujang-based tteokbokki is a much more recent development. Its origins are generally associated with Seoul in the decades following the Korean War. Ma Bok-rim, a vendor in the Sindang-dong neighborhood, is widely credited with helping popularize an early version made with gochujang and black bean paste. Similar shops eventually gathered in the neighborhood, establishing Sindang-dong as one of Seoul's most well-known destinations for tteokbokki. 
+                        </p>
+                        <p>
+                            During the following decades, inexpensive tteokbokki spread through street stalls and <i>bunsikjip</i>, or snack shops, particularly around schools. What had once been a comparatively elaborate dish became an affordable, everyday snack and eventually one of the foods most closely associated with Korean street food.
+                        </p>
+
+                    <h3>Tteokbokki and Pojangmacha</h3>
+                        <p>
+                            Tteokbokki has become closely associated with Korean street-food culture, particularly <i>pojangmacha</i>. These street stalls, traditionally constructed as carts or small stands sheltered by fabric or plastic coverings, sell inexpensive foods that can be eaten quickly or enjoyed alongside drinks. Tteokbokki is one of the foods commonly found alongside dishes such as <i>eomuk</i>, <i>sundae</i>, <i>gimbap</i>, and fried foods.
+                        </p>
+                        <p>
+                            The large pans of bright-red tteokbokki found at street stalls have become one of the dish's most recognizable settings. Its relatively low cost, filling rice cakes, and ability to remain hot in a simmering sauce make it particularly well suited to this style of service. Tteokbokki is also strongly associated with casual snacking, especially among students, while <i>pojangmacha</i> more broadly play a role in Korea's evening and late-night eating and drinking culture.
+                        </p>
+
+                    <h3>Appearance and Flavor</h3>
+                        <p>
+                            Gochujang tteokbokki is recognizable by its glossy red sauce and long, cylindrical rice cakes. The rice cakes have a dense, pleasantly chewy texture and relatively mild flavor, allowing them to absorb the spicy and savory sauce surrounding them.
+                        </p>
+                        <p>
+                            The exact flavor varies considerably between recipes, but the sauce generally balances the heat and fermented flavor of gochujang with sweetness and savory ingredients. Fish cakes and anchovy-based broth are also common and contribute additional savory flavor. Because the sauce thickens as the dish cooks, it clings closely to both the rice cakes and any additional ingredients.
+                        </p>
+                </section>
+
+                <section class="tab-panel" id="recipe">
+                    <h2>Recipe</h2>
+
+                    <div class="recipe-content">
+                        <div class="recipe-text">
+                            <h3>Ingredients</h3>
+                            <ul>
+                                <li>400 g rice cakes</li>
+                                <li>700 g anchovy or kelp stock</li>
+                                <li>2 tbsp gochujang</li>
+                                <li>1 tbsp gochugaru</li>
+                                <li>1 tbsp soy sauce</li>
+                                <li>1 tbsp sugar</li>
+                            </ul>
+                            
+                            <h3>Directions</h3>
+                            <ol>
+                                <li>Cover rice cakes in cold water and let soak for 10 minutes.</li>
+                                <li>In a large, flat pan, add the stock and bring to a rapid simmer.</li>
+                                <li>Add the gochujang, gochugaru, soy sauce, and sugar to the pan and stir until well combined.</li>
+                                <li>Drain the rice cakes and add them to the sauce.</li>
+                                <li>Let simmer 10-15 minutes until the sauce thickens and coats the rice cakes.</li>
+                                <li>Serve hot and top with sliced green onions.<sup>[1]</sup></li>
+                            </ol>
+
+                            <h3>Notes</h3>
+                            <ol>
+                                <li>You can also add Korean fish cakes, boiled eggs, or vegetables like cabbage or carrots.</li>
+                            </ol>
+                        </div>
+
+                        <div class="recipe-gallery">
+                            <img 
+                                src="../images/tteokbokki/recipe/1.jpg"
+                                alt="Ingredients"
+                                class="recipe-image"
+                            >
+
+                            <img 
+                                src="../images/tteokbokki/recipe/2.jpg"
+                                alt="Base"
+                                class="recipe-image"
+                            >
+
+                            <img 
+                                src="../images/tteokbokki/recipe/3.jpg"
+                                alt="Tteokbokki cooking"
+                                class="recipe-image"
+                            >
+
+                            <img 
+                                src="../images/tteokbokki/recipe/4.jpg"
+                                alt="Finished tteokbokki"
+                                class="recipe-image"
+                            >
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tab-panel" id="see-also">
+                    <h2>See Also</h2>
+
+                    <a class="see-also-result" href="kimchi-jjigae.html">
+                        <img class="see-also-result-image" src="../images/kimchi-jjigae/1.jpg">
+                        <span class="see-also-result-title">Kimchi Jjigae</span>
+                    </a>
+
+                </section>
+
+                <section class="tab-panel" id="references">
+                    <h2>References</h2>
+                    <ul>
+                        <li>Choi, Bae-Young, and Youngwook Lee. “Transformation of Commercial Tteokbokki in Seoul after the Korean War: Through the Lens of Newspaper Articles.” <i>Food, Culture & Society</i>, vol. 29, no. 4, 2026, pp. 1232-1261, <a href="https://doi.org/10.1080/15528014.2026.2622733" target="_blank">doi.org/10.1080/15528014.2026.2622733</a>. Accessed 4 Sept. 2026.</li>
+                        <li>“Street Food Loved by Koreans.” <i>VISITKOREA</i>, Korea Tourism Organization, 4 Dec. 2023, <a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=184669" target="_blank">english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=184669</a>. Accessed 3 Sept. 2026.</li>
+                        <li>Trunkett, Hwajeong L. “Tteokbokki: Street Food Bringing People Together.” <i>KOREA</i>, Korean Culture and Information Service, Jan. 2019, <a href="https://www.korean-culture.org/eng/webzine/201901/sub08.html" target="_blank">korean-culture.org/eng/webzine/201901/sub08.html</a>. Accessed 3 Sept. 2026.</li>
+                    </ul>
+                </section>
+
+            </div>
+        </section>
+
+    </main>
+
+    <script src="../js/articles.js"></script>
+    <script src="../js/search.js"></script>
+
+</body>
+</html>

@@ -1,6 +1,8 @@
 [
     {
-        "Italian Cuisine": [],
+        "Korean Cuisine": [
+            "tteokbokki"
+        ],
 
         "Chinese Food": [
             "char-siu",
@@ -22,11 +24,13 @@
         ],
 
         "Spicy Dishes": [
-            "mapo-tofu"
+            "mapo-tofu",
+            "tteokbokki"
         ],
 
         "Savory Items": [
-            "char-siu"
+            "char-siu",
+            "mapo-tofu"
         ]
     },
 
