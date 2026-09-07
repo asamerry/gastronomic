@@ -113,7 +113,7 @@ const searchForm = document.querySelector(".search-form");
 searchInput.addEventListener("input", () => {
     const results = searchArticles(searchInput.value);
 
-    displaySearchResults(results);
+    displaySearchResults(results.slice(0, 5));
 });
 
 // Enter key submits search form and redirects to first search result
