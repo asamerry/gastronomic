@@ -1,7 +1,8 @@
 [
     {
         "Korean Cuisine": [
-            "tteokbokki"
+            "tteokbokki",
+            "kimchi-jjigae"
         ],
 
         "Chinese Food": [
@@ -26,7 +27,8 @@
 
         "Spicy Dishes": [
             "mapo-tofu",
-            "tteokbokki"
+            "tteokbokki",
+            "kimchi-jjigae"
         ],
 
         "Savory Items": [
