@@ -242,6 +242,10 @@ footer {
 /* Smaller screens */
 @media (orientation: portrait) {
 
+    .home-gallery {
+        aspect-ratio: 4 / 3;
+    }
+
     .home-grid {
         grid-template-columns: 1fr;
     }
