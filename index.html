@@ -4,60 +4,167 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gastronomic</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body data-root="">
 
-    <header class="site-header">
-        <h1 class="page-title">Gastronomic</h1>
+    <header class="home-header">
 
-        <div class="header-right">
-            <nav class="main-nav">
-                <a href="index.html">Home</a>
-                <a href="explore.html">Explore</a>
-                <a href="about.html">About</a>
-            </nav>
+        <div class="home-gallery">
 
-            <div class="search-container">
+            <img
+                src="images/index/1.jpg"
+                alt="Char siu over peanut noodles"
+                class="home-gallery-image active"
+            >
+            
+            <img
+                src="images/index/2.jpg"
+                alt="Plum rosemary moscow mule"
+                class="home-gallery-image"
+            >
+            
+            <img
+                src="images/index/3.jpg"
+                alt="Pints of ice cream"
+                class="home-gallery-image"
+            >
 
-                <form class="search-form">
-                    <input
-                        class="search-input"
-                        type="search"
-                        placeholder="Search..."
-                    >
-                </form>
+            <img
+                src="images/index/4.jpg"
+                alt="Fig pesto pizza"
+                class="home-gallery-image"
+            >
+            
+            <div class="home-header-overlay"></div>
 
-                <div class="search-results"></div>
+            <div class="home-header-content">
+
+                <h1 class="home-title">Gastronomic</h1>
+
+                <nav class="home-nav">
+                    <a href="index.html">Home</a>
+                    <a href="explore.html">Explore</a>
+                    <a href="about.html">About</a>
+                </nav>
+
+                <div class="search-container">
+                    <form class="search-form">
+                        <input
+                            class="search-input home-search-input"
+                            type="search"
+                            placeholder="Search..."
+                        >
+                    </form>
+
+                    <div class="search-results"></div>
+                </div>
 
             </div>
+
         </div>
+
     </header>
 
-    <main>
-        <section class="hero">
-            <p>Welcome! Before getting started, note that the Home, Explore, and About pages are still heavily under development. As a result, the seven live article pages have been individually linked below, but you can also search for each of these by name or by certain specific characteristics. For instance, searching "sweet" gives five results, "dessert" gives two results, and "cold dessert" gives one result.</p>
+    <main class="home-content">
+
+        <section class="home-intro">
+            <p>
+                Gastronomic is a collection of articles exploring foods, ingredients, recipes, 
+                and culinary traditions from around the world. Follow the connections between 
+                them to discover where food comes from, how it is made, and the many ways it 
+                can be used.
+            </p>
         </section>
 
-        <section>
-            <h2>Featured</h2>
-            <ul>
-                <li><a href="articles/char-siu.html">Char Siu</a></li>
-                <li><a href="articles/mapo-tofu.html">Mapo Tofu</a></li>
-                <li><a href="articles/ice-cream.html">Ice Cream</a></li>
-                <li><a href="articles/fruit-syrup.html">Fruit Syrup</a></li>
-                <li><a href="articles/tarte-tatin.html">Tarte Tatin</a></li>
-                <li><a href="articles/plums.html">Plums</a></li>
-                <li><a href="articles/figs.html">Figs</a></li>
-            </ul>
-        </section>
+        <div class="home-grid">
+
+            <section class="featured-section">
+                <h2>Featured</h2>
+
+                <div class="featured-grid">
+
+                    <a class="featured-article" href="articles/char-siu.html">
+                        <img
+                            class="featured-image"
+                            src="images/char-siu/1.jpg"
+                            alt="Char siu"
+                        >
+
+                        <div class="featured-text">
+                            <h3>Char Siu</h3>
+                            <p>
+                                Cantonese roasted pork known for its sweet and savory marinade, glossy exterior, and caramelized edges.
+                            </p>
+                        </div>
+                    </a>
+
+                    <a class="featured-article" href="articles/ice-cream.html">
+                        <img
+                            class="featured-image"
+                            src="images/ice-cream/1.jpg"
+                            alt="Ice Cream"
+                        >
+
+                        <div class="featured-text">
+                            <h3>Ice Cream</h3>
+                            <p>
+                                A rich, creamy frozen dessert made by churning a sweetened dairy base with countless possibilities for flavoring.
+                            </p>
+                        </div>
+                    </a>
+
+                </div>
+            </section>
+
+
+            <section class="recent-section">
+                <h2>Recently Added</h2>
+
+                <div class="recent-grid">
+                    <a class="recent-article" href="articles/kimchi-jjigae.html">
+                        <img
+                            class="recent-image"
+                            src="images/kimchi-jjigae/1.jpg"
+                            alt="Kimchi jjigae"
+                        >
+
+                        <h3>Kimchi Jjigae</h3>
+                    </a>
+
+                    <a class="recent-article" href="articles/pancakes-waffles.html">
+                        <img
+                            class="recent-image"
+                            src="images/pancakes-waffles/1.jpg"
+                            alt="American-style pancakes and waffles"
+                        >
+
+                        <h3>American-Style Pancakes &amp; Waffles</h3>
+                    </a>
+
+                    <a class="recent-article" href="articles/tteokbokki.html">
+                        <img
+                            class="recent-image"
+                            src="images/tteokbokki/1.jpg"
+                            alt="Tteokbokki"
+                        >
+
+                        <h3>Tteokbokki</h3>
+                    </a>
+
+                </div>
+            </section>
+
+        </div>
+
     </main>
 
     <footer>
         <p>&copy; 2026 Gastronomic</p>
     </footer>
 
+    <script src="js/index.js"></script>
     <script src="js/search.js"></script>
 
 </body>
