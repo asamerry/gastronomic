@@ -102,5 +102,15 @@
             "pocha",
             "street food"
         ]
+    },
+
+    "pancakes-waffles": {
+        "title": "American-Style Pancakes and Waffles",
+        "tags": [
+            "pancakes and waffles",
+            "american pancakes",
+            "american waffles",
+            "american breakfast"
+        ]
     }
 }

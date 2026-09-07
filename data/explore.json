@@ -20,7 +20,8 @@
             "plums",
             "tarte-tatin",
             "ice-cream",
-            "fruit-syrup"
+            "fruit-syrup",
+            "pancakes-waffles"
         ],
 
         "Spicy Dishes": [
@@ -36,7 +37,8 @@
 
     {
         "Breakfast Foods": [
-            "fruit-syrup"
+            "fruit-syrup",
+            "pancakes-waffles"
         ],
 
         "Finer Details": [],
