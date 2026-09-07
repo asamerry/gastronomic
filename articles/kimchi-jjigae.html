@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gastronomic</title>
+
+    <link rel="stylesheet" href="../css/articles.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body data-root="../">
+
+    <header class="site-header">
+        <h1 class="page-title">Kimchi Jjigae</h1>
+
+        <div class="header-right">
+            <nav class="main-nav">
+                <a href="../index.html">Home</a>
+                <a href="../explore.html">Explore</a>
+                <a href="../about.html">About</a>
+            </nav>
+
+            <div class="search-container">
+
+                <form class="search-form">
+                    <input
+                        class="search-input"
+                        type="search"
+                        placeholder="Search..."
+                    >
+                </form>
+
+                <div class="search-results"></div>
+
+            </div>
+        </div>
+    </header>
+
+    <main class="page-content">
+
+        <section class="photo-gallery">
+            
+            <div class="gallery-container">
+
+                <div class="gallery-item active">
+                    <img 
+                        src="../images/kimchi-jjigae/1.jpg" 
+                        alt="Kimchi jjigae" 
+                        class="gallery-image"
+                    >
+
+                    <p class="gallery-caption">
+                        Kimchi jjigae in a ttukbaegi.
+                    </p>
+                </div>
+
+                <div class="gallery-item">
+                    <img 
+                        src="../images/kimchi-jjigae/2.jpg" 
+                        alt="Kimchi jjigae with rice" 
+                        class="gallery-image"
+                    >
+
+                    <p class="gallery-caption">
+                        Kimchi jjigae served with a bowl of rice.
+                    </p>
+                </div>
+
+                <button class="gallery-button previous">
+                    &#10094;
+                </button>
+
+                <button class="gallery-button next">
+                    &#10095;
+                </button>
+            </div>
+
+            <div class="gallery-dots">
+                <button class="gallery-dot active" data-image="0"></button>
+                <button class="gallery-dot" data-image="1"></button>
+            </div>
+        </section>
+
+        <section class="content-box">
+
+            <div class="tabs">
+                <button class="tab-button active" data-tab="overview">
+                    Overview
+                </button>
+
+                <button class="tab-button" data-tab="recipe">
+                    Recipe
+                </button>
+
+                <button class="tab-button" data-tab="see-also">
+                    See Also
+                </button>
+
+                <button class="tab-button" data-tab="references">
+                    References
+                </button>
+            </div>
+
+            <div class="tab-content">
+
+                <section class="tab-panel active" id="overview">
+                    <h2>Overview</h2>
+                    <h3>What is kimchi jjigae?</h3>
+                        <p>
+                            Kimchi jjigae (김치찌개, jjigae pronounced "jee-gay") is a dish belonging to a broader category of Korean foods known as <i>jjigae</i>, or Korean stews. Jjigae are generally served hot alongside rice and other dishes, often in the vessel in which they were cooked. In kimchi jjigae, kimchi is simmered with broth and other ingredients like pork, tofu, and green onion. Well-fermented kimchi gives the broth its strong, characteristic flavor. Unlike in many Korean meals, kimchi serves not simply as an accompaniment but as the defining ingredient of the stew.  
+                        </p>
+
+                    <h3>Origin and History</h3>
+                        <p>
+                            Kimchi jjigae likely developed as a practical way of using kimchi that had become too old or sour to be enjoyed on its own. Dating the dish precisely is difficult because kimchi itself has changed considerably over Korean history. Earlier forms of kimchi existed long before the familiar red varieties eaten today. Chili peppers reached Korea during the Joseon period (1392-1910), and their incorporation into kimchi contributed to the development of the forms that eventually became characteristic of modern Korean cuisine. It is believed that the familiar form of kimchi jjigae developed after chili-seasoned kimchi began to appear. 
+                        </p>
+
+                    <h3>Ingredients and Variations</h3>
+                        <p>
+                            For this dish, there is no single required set of ingredients other than kimchi itself. Pork is particularly common, with fatty cuts such as pork belly contributing to the richness of the broth. Tofu, green onion, garlic, and chili seasonings are also common. Older descriptions of the dish likewise show considerable variation, including beef, pork, fermented soybean paste, or gochujang. 
+                        </p>
+                        <p>
+                            The condition of the kimchi can have as much influence on the finished stew as the additional ingredients. Fully fermented kimchi develops a stronger acidity and a more pronounced fermented flavor, making older kimchi especially useful for cooking. This also makes kimchi jjigae a practical way to use up older kimchi.
+                        </p>
+
+                    <h3>Serving and Eating</h3>
+                        <p>
+                            Kimchi jjigae is typically served piping hot with steamed white rice. The rich, spicy, and sour broth contrasts with the relatively neutral rice, while pieces of kimchi, tofu, meat, and other ingredients make the stew substantial enough to form the centerpiece of a meal. It is often prepared and served in an earthenware vessel such as a <i>ttukbaegi</i>, which retains heat particularly well.
+                        </p>
+                </section>
+
+                <section class="tab-panel" id="recipe">
+                    <h2>Recipe</h2>
+
+                    <div class="recipe-content">
+                        <div class="recipe-text">
+                            <h3>Ingredients</h3>
+                            <ul>
+                                <li>500 g anchovy or kelp stock<sup>[1]</sup></li>
+                                <li>125 g pork belly, diced</li>
+                                <li>2 cloves garlic, minced</li>
+                                <li>1/8 yellow onion, diced</li>
+                                <li>120 g kimchi, diced<sup>[2]</sup></li>
+                                <li>3 shiitake mushrooms, sliced thin (optional)</li>
+                                <li>50 g kimchi juice</li>
+                                <li>1 tbsp gochujang</li>
+                                <li>1 tbsp soy sauce</li>
+                                <li>1 tsp sesame oil</li>
+                                <li>1 baby bok choy, chopped and blanched (optional)<sup>[3]</sup></li>
+                                <li>225 g tofu, sliced into large squares</li>
+                            </ul>
+                            
+                            <h3>Directions</h3>
+                            <ol>
+                                <li>Put the stock in a pot and bring to a gentle boil while preparing the other ingredients.</li>
+                                <li>Add the diced pork belly to a lightly oiled pan and cook over medium heat until the outside has begun to brown.<sup>[4]</sup></li>
+                                <li>Add the garlic and onion and fry until the garlic is fragrant and the onions are slightly translucent.</li>
+                                <li>Stir in the diced kimchi and cook until the liquid begins to reduce, then add in the mushrooms. Cook until the mushrooms begin to soften.</li>
+                                <li>To the boiling stock, stir in kimchi juice and gochujang. Then, incorporate the fried ingredients.</li>
+                                <li>Cover the pot and let simmer for 10-15 minutes, until the base has reached your desired consistency and flavor.</li>
+                                <li>Add the soy sauce, sesame oil, and baby bok choy and mix thoroughly, then top with the sliced tofu and simmer just until the tofu is heated through.</li>
+                                <li>Serve hot, topped with green onions and a side of white rice.</li>
+                            </ol>
+
+                            <h3>Notes</h3>
+                            <ol>
+                                <li>It is also perfectly acceptable to use water or prepare the stock with powdered dashi.</li>
+                                <li>Well-fermented, sour kimchi works best. Fresh kimchi will not bring as much flavor to the broth or become as tender.</li>
+                                <li>This ingredient is non-traditional, so it can be skipped if preferred. Alternatively, other greens such as spinach or napa cabbage also work well.</li>
+                                <li>If using a sturdier pot, everything can be prepared in the same vessel. Just add the stock and bring to a boil after Step 4 instead.</li>
+                            </ol>
+                        </div>
+
+                        <div class="recipe-gallery">
+                            <img 
+                                src="../images/kimchi-jjigae/recipe/1.jpg"
+                                alt="Ingredients"
+                                class="recipe-image"
+                                >
+
+                            <img 
+                                src="../images/kimchi-jjigae/recipe/2.jpg"
+                                alt="Pork, garlic, and onion frying"
+                                class="recipe-image"
+                            >
+
+                            <img 
+                                src="../images/kimchi-jjigae/recipe/3.jpg"
+                                alt="Kimchi added"
+                                class="recipe-image"
+                            >
+                                
+                            <img 
+                                src="../images/kimchi-jjigae/recipe/4.jpg"
+                                alt="Mushrooms added"
+                                class="recipe-image"
+                            >
+
+                            <img 
+                                src="../images/kimchi-jjigae/recipe/5.jpg"
+                                alt="Jjigae base"
+                                class="recipe-image"
+                            >
+
+                            <img 
+                                src="../images/kimchi-jjigae/recipe/6.jpg"
+                                alt="Fried ingredients added"
+                                class="recipe-image"
+                            >
+
+                            <img 
+                                src="../images/kimchi-jjigae/recipe/7.jpg"
+                                alt="Greens added"
+                                class="recipe-image"
+                            >
+
+                            <img 
+                                src="../images/kimchi-jjigae/recipe/8.jpg"
+                                alt="Finished kimchi jjigae"
+                                class="recipe-image"
+                            >
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tab-panel" id="see-also">
+                    <h2>See Also</h2>
+
+                    <a class="see-also-result" href="tteokbokki.html">
+                        <img class="see-also-result-image" src="../images/tteokbokki/1.jpg">
+                        <span class="see-also-result-title">Tteokbokki</span>
+                    </a>
+
+                    <a class="see-also-result" href="mapo-tofu.html">
+                        <img class="see-also-result-image" src="../images/mapo-tofu/1.jpg">
+                        <span class="see-also-result-title">Mapo Tofu</span>
+                    </a>
+
+                </section>
+
+                <section class="tab-panel" id="references">
+                    <h2>References</h2>
+                    <ul>
+                        <li>Lee, Seong-u. “김치 [Kimchi].” <i>Encyclopedia of Korean Culture</i>, Academy of Korean Studies, 17 Jan. 2024, <a href="https://encykorea.aks.ac.kr/Article/E0010822" target="_blank">encykorea.aks.ac.kr/Article/E0010822</a>. Accessed 30 Aug. 2026.</li>
+                        <li>Ro, Hyosun. “Kimchi Jjigae (Kimchi Stew).” <i>Korean Bapsang</i>, 27 Dec. 2020, updated 11 May 2021, <a href="https://koreanbapsang.com/kimchi-jjigae-kimchi-stew" target="_blank">koreanbapsang.com/kimchi-jjigae-kimchi-stew</a>. Accessed 30 Aug. 2026.</li>
+                        <li>Yun, Deok-in. “김치찌개 [Kimchi Jjigae].” <i>Encyclopedia of Korean Culture</i>, Academy of Korean Studies, 7 Feb. 2023, <a href="https://encykorea.aks.ac.kr/Article/E0010836" target="_blank">encykorea.aks.ac.kr/Article/E0010836</a>. Accessed 30 Aug. 2026.</li>
+                    </ul>
+                </section>
+
+            </div>
+        </section>
+
+    </main>
+
+    <script src="../js/articles.js"></script>
+    <script src="../js/search.js"></script>
+
+</body>
+</html>

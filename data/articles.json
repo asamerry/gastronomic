@@ -112,5 +112,17 @@
             "american waffles",
             "american breakfast"
         ]
+    },
+
+    "kimchi-jjigae": {
+        "title": "Kimchi Jjigae",
+        "tags": [
+            "kimchi jjigae",
+            "korean stew",
+            "tofu",
+            "gochujang",
+            "spicy",
+            "red"
+        ]
     }
 }
