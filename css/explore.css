@@ -75,7 +75,7 @@ footer p {
     margin: 0;
 }
 
-@media (max-width: 800px) {
+@media (orientation: portrait) {
 
     .explore-grid {
         grid-template-columns: 1fr;

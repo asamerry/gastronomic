@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    font-family: sans-serif;
     background-color: #f4eaf0;
 }
 
@@ -87,7 +86,7 @@ body {
     flex: 1;
 }
 
-@media (max-width: 800px) {
+@media (orientation: portrait) {
 
     .site-header {
         flex-direction: column;
