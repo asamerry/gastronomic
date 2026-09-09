@@ -114,18 +114,6 @@
         ]
     },
 
-    "kimchi-jjigae": {
-        "title": "Kimchi Jjigae",
-        "tags": [
-            "kimchi jjigae",
-            "korean stew",
-            "tofu",
-            "gochujang",
-            "spicy",
-            "red"
-        ]
-    },
-
     "kimchi": {
         "title": "Kimchi",
         "tags": [
@@ -136,6 +124,18 @@
             "korean",
             "banchan",
             "side dish"
+        ]
+    },
+
+    "kimchi-jjigae": {
+        "title": "Kimchi Jjigae",
+        "tags": [
+            "kimchi jjigae",
+            "korean stew",
+            "tofu",
+            "gochujang",
+            "spicy",
+            "red"
         ]
     }
 }
