@@ -2,16 +2,13 @@
     {
         "Korean Cuisine": [
             "tteokbokki",
-            "kimchi-jjigae"
+            "kimchi-jjigae",
+            "kimchi"
         ],
 
         "Chinese Food": [
             "char-siu",
             "mapo-tofu"
-        ],
-
-        "French Cooking": [
-            "tarte-tatin"
         ]
     },
 
@@ -25,10 +22,11 @@
             "pancakes-waffles"
         ],
 
-        "Spicy Dishes": [
+        "Spicy Foods": [
             "mapo-tofu",
             "tteokbokki",
-            "kimchi-jjigae"
+            "kimchi-jjigae",
+            "kimchi"
         ],
 
         "Savory Items": [
@@ -43,10 +41,6 @@
             "pancakes-waffles"
         ],
 
-        "Finer Details": [],
-
-        "Preservation Methods": [
-            "fruit-syrup"
-        ]
+        "Finer Details": []
     }
 ]

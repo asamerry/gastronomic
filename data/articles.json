@@ -105,7 +105,7 @@
     },
 
     "pancakes-waffles": {
-        "title": "American-Style Pancakes and Waffles",
+        "title": "American-Style Pancakes & Waffles",
         "tags": [
             "pancakes and waffles",
             "american pancakes",
@@ -123,6 +123,19 @@
             "gochujang",
             "spicy",
             "red"
+        ]
+    },
+
+    "kimchi": {
+        "title": "Kimchi",
+        "tags": [
+            "kimchi",
+            "fermented",
+            "red",
+            "spicy",
+            "korean",
+            "banchan",
+            "side dish"
         ]
     }
 }
