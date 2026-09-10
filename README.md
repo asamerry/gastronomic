@@ -1,6 +1,6 @@
 # Gastronomic
 
-Gastronomic is a collection of articles exploring food, cooking, ingredients, and culinary traditions from around the world. Articles range from individual dishes and ingredients to broader techniques and cuisines, combining background information with recipes, practical uses, and other resources for learning more. The site is designed as an interconnected network of food and cooking, where connections make it easy to move between topics and explore food without necessarily knowing what you are looking for when you begin. 
+*Gastronomic* is an adjective relating to the term *gastronomy*: the art, science, and study of preparing, cooking, and eating food. In line with its name, this website is a collection of articles exploring food, cooking, ingredients, and culinary traditions from around the world. These articles range from individual dishes and ingredients to broader techniques and cuisines, combining background information with recipes, practical uses, and other resources for learning more. The site is designed as an interconnected network of food and cooking, where connections make it easy to move between topics and explore food without necessarily knowing what you are looking for when you begin.
 
 <div align="center">
   <img src="images/about/1.jpg" width="33%">
