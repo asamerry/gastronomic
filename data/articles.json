@@ -118,7 +118,7 @@
         "title": "Kimchi",
         "tags": [
             "kimchi",
-            "fermented",
+            "fermented cabbage",
             "red",
             "spicy",
             "korean",
@@ -136,6 +136,18 @@
             "gochujang",
             "spicy",
             "red"
+        ]
+    },
+
+    "bo-zai-fan": {
+        "title": "Bo Zai Fan",
+        "tags": [
+            "bo zai fan",
+            "clay pot rice",
+            "chinese",
+            "cantonese",
+            "guangdong",
+            "savory"
         ]
     }
 }

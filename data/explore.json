@@ -1,6 +1,6 @@
 [
     {
-        "Korean Cuisine": [
+        "Korean Dishes": [
             "tteokbokki",
             "kimchi-jjigae",
             "kimchi"
@@ -8,7 +8,8 @@
 
         "Chinese Food": [
             "char-siu",
-            "mapo-tofu"
+            "mapo-tofu",
+            "bo-zai-fan"
         ]
     },
 
@@ -27,11 +28,6 @@
             "tteokbokki",
             "kimchi-jjigae",
             "kimchi"
-        ],
-
-        "Savory Items": [
-            "char-siu",
-            "mapo-tofu"
         ]
     },
 
