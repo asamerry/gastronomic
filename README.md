@@ -3,9 +3,9 @@
 Gastronomic is a collection of articles exploring food, cooking, ingredients, and culinary traditions from around the world. Articles range from individual dishes and ingredients to broader techniques and cuisines, combining background information with recipes, practical uses, and other resources for learning more. The site is designed as an interconnected network of food and cooking, where connections make it easy to move between topics and explore food without necessarily knowing what you are looking for when you begin. 
 
 <div align="center">
-  <img src="images/about/1.jpg" width="300">
-  <img src="images/about/2.jpg" width="300">
-  <img src="images/about/3.jpg" width="300">
+  <img src="images/about/1.jpg" width="33%">
+  <img src="images/about/2.jpg" width="33%">
+  <img src="images/about/3.jpg" width="33%">
 </div>
 
 
@@ -18,8 +18,8 @@ I created Gastronomic as a way to document and organize that process of explorat
 Building Gastronomic has also given me an opportunity to bring together several things I enjoy. Cooking gives me something to experiment with, research gives me a better understanding of what I am making, and web development provides a way to organize everything into something that other people can explore. As the site continues to grow, I hope it can serve both as a record of what I have learned and as a starting point for anyone else who is curious about food. 
 
 <div align="center">
-  <img src="images/about/4.jpg" width="500">
-  <img src="images/about/5.jpg" width="500">
+  <img src="images/about/4.jpg" width="45%">
+  <img src="images/about/5.jpg" width="45%">
 </div>
 
 ## My Design Approach
