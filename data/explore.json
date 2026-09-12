@@ -28,13 +28,20 @@
             "tteokbokki",
             "kimchi-jjigae",
             "kimchi"
+        ],
+
+        "Savory Items": [
+            "char-siu",
+            "bo-zai-fan",
+            "uova-al-purgatorio"
         ]
     },
 
     {
         "Breakfast Foods": [
             "fruit-syrup",
-            "pancakes-waffles"
+            "pancakes-waffles",
+            "uova-al-purgatorio"
         ]
     }
 ]
