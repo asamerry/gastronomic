@@ -71,10 +71,6 @@
     padding: 0.25rem 0.5rem 0.75rem;
 }
 
-footer p {
-    margin: 0;
-}
-
 @media (orientation: portrait) {
 
     .explore-grid {
