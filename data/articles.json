@@ -149,5 +149,16 @@
             "guangdong",
             "savory"
         ]
+    },
+
+    "uova-al-purgatorio": {
+        "title": "Uova al Purgatorio",
+        "tags": [
+            "uova al puragtorio",
+            "italian breakfast",
+            "tomatoes",
+            "eggs",
+            "savory breakfast"
+        ]
     }
 }
